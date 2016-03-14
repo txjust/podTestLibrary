@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "podTestLibrary"
-  s.version      = "0.1.0"
+  s.version      = "1.0.0"
   s.summary      = "Just Testing."
 
   # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/txjust/podTestLibrary.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/txjust/podTestLibrary.git", :tag => "1.0.0" }
 
   s.platform     = :ios, '7.0'            #支持的平台及版本
   s.requires_arc = true
