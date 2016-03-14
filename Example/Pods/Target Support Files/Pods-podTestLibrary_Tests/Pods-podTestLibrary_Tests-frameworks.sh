@@ -84,14 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-podTestLibrary_Tests/podTestLibrary.framework"
   install_framework "Pods-podTestLibrary_Tests/Expecta.framework"
   install_framework "Pods-podTestLibrary_Tests/Expecta_Snapshots.framework"
   install_framework "Pods-podTestLibrary_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-podTestLibrary_Tests/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-podTestLibrary_Tests/podTestLibrary.framework"
   install_framework "Pods-podTestLibrary_Tests/Expecta.framework"
   install_framework "Pods-podTestLibrary_Tests/Expecta_Snapshots.framework"
   install_framework "Pods-podTestLibrary_Tests/FBSnapshotTestCase.framework"

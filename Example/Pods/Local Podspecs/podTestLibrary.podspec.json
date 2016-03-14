@@ -1,25 +1,21 @@
 {
   "name": "podTestLibrary",
   "version": "0.1.0",
-  "summary": "A short description of podTestLibrary.",
+  "summary": "testing",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/podTestLibrary",
-  "license": "MIT",
+  "homepage": "https://github.com/txjust/podTestLibrary",
+  "license": "MIT (example)",
   "authors": {
-    "xingxuewei": "xingxuewei@jd.com"
+    "txjust": "email@address.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/podTestLibrary.git",
+    "git": "https://github.com/txjust/podTestLibrary.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "7.0"
-  },
-  "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "podTestLibrary": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "public_header_files": "Classes/**/*.h"
 }
